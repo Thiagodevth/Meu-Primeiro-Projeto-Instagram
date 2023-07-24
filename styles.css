@@ -1,11 +1,14 @@
-
 body {
     background-color: #fafafa;
-    width: 100vw;   /* vw é a largura, width tbm */
-    height: 100vh;  /* vh é a altura, height tbm */
+    width: 100vw;
+    /* vw é a largura, width tbm */
+    height: 100vh;
+    /* vh é a altura, height tbm */
     display: flex;
-    justify-content: center; /* alinha o conteudo na horizontal */
-    align-items: center;  /* alinha o conteudo na vertical */
+    justify-content: center;
+    /* alinha o conteudo na horizontal */
+    align-items: center;
+    /* alinha o conteudo na vertical */
     font-family: sans-serif;
 }
 
@@ -38,12 +41,13 @@ button {
     cursor: pointer;
 
 }
-button:hover { 
+
+button:hover {
     opacity: 0.8;
 }
 
 button:active {
-opacity: .5;
+    opacity: .5;
 }
 
 .facebook {
@@ -63,16 +67,84 @@ opacity: .5;
     margin-top: 20px;
 }
 
-.div-img { 
-    position: relative;  /* o absolute vai ficar posicionado em relação ao relative */
+.div-img {
+    position: relative;
+    /* o absolute vai ficar posicionado em relação ao relative */
 
 }
 
 .img-insta {
     height: 520px;
     position: absolute;
-    left: 153px;        /* left é esquerda */
-    top: 26px;          /* top é o topo*/ 
-    transition: ease-in-out 2s; /* o transition suavisar a imagem tanto no começo, qnt no final*/
+    left: 153px;
+    /* left é esquerda */
+    top: 26px;
+    /* top é o topo*/
+    transition: ease-in-out 2s;
+    /* o transition suavisar a imagem tanto no começo, qnt no final*/
     /* que serve pra estilizar la n javascript */
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /* usa-se para o responsivo-> mobile*/
+    body {
+        background-color: #fafafa;
+        width: 100vw;
+        /* vw é a largura, width tbm */
+        height: 100vh;
+        /* vh é a altura, height tbm */
+        display: block;
+        justify-content: center;
+        /* alinha o conteudo na horizontal */
+        align-items: center;
+        /* alinha o conteudo na vertical */
+        font-family: sans-serif;
+    }
+
+
+    .img-celular {
+        width: 211px;
+        height: 277px;
+        margin-left: 76px;
+        margin-top: 29px;
+    }
+
+    .img-insta {
+        height: 239px;
+        left: 148px; /* left é esquerda */
+        top: 39px;
+    }
+
+    input {
+        height: 23px;
+        border: 1px solid #d3d3d3;
+        border-radius: 3px;
+        margin-top: 4px;
+    }
+    .img-insta-lg {
+        height: 35px;
+        margin-top: 15px;
+    }
+
+    .div-container {
+        border: 1px solid #d3d3d3;
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        width: 162px;
+        margin-left: 82px;
+        padding-top: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
 }
