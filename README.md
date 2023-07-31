@@ -4,7 +4,7 @@
   <br>
 <h2> Esse Foi Um Dos Meus Primeiros Projetos Que Aprendi No <a href="https://rodolfomori.com.br/devclub"> Dev Club</a> </h2> Um Projeto Bem Simples Que Ajuda Bastante No Aprendizado, Uma Esperiênçia Bem Legal E Que Cada Dia Estou Evoluindo Mais E Mais..
 <br>
-Usei As Seguintes Linguagens, 
+Usei As Seguintes Tecnologias, 
 <br>
 -HTML
 <br>
